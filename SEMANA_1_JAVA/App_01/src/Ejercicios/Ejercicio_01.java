@@ -1,28 +1,20 @@
-public class Main {
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+
+package Ejercicios;
+import java.util.Scanner;
+public class Ejercicio_01 {
+
     public static void main(String[] args) {
-        
-        int[][][] edificios = new int[3][9][3];
-        for (int edificio = 0; edificio < 3; edificio++) {
-            for (int piso = 0; piso < 9; piso++) {
-                for (int cuarto = 0; cuarto < 3; cuarto++) {
-                    
-                    int numeroDeCuarto = ((edificio + 1) * 100) + ((piso + 1) * 10) + (cuarto + 1);
-
-                    edificios[edificio][piso][cuarto] = numeroDeCuarto;
-                }
-            }
-        }
-
-  
-        for (int edificio = 0; edificio < 3; edificio++) {
-            System.out.println("Edificio " + (edificio + 1) + ":");
-            for (int piso = 0; piso < 9; piso++) {
-                for (int cuarto = 0; cuarto < 3; cuarto++) {
-                    System.out.print(edificios[edificio][piso][cuarto] + " ");
-                }
-                System.out.println(); 
-            }
-            System.out.println(); 
-        }
+        int n1, n2,s; Scanner input = new Scanner(System.in);
+        /* Sumar 2 números */
+        System.out.println("Dime un número: ");
+        n1 = input.nextInt();
+        System.out.println("Dime otro número: ");
+        n2 = input.nextInt();
+        System.out.println("La suma de ambos números es: " + (n1+n2));               
     }
+    
 }
