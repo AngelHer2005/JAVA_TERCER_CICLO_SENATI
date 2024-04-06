@@ -10,9 +10,6 @@ package Examen;
  */
 public class PROFESOR_ALUMNO extends javax.swing.JFrame {
 
-    /**
-     * Creates new form Examen
-     */
     public PROFESOR_ALUMNO() {
         initComponents();
     }
