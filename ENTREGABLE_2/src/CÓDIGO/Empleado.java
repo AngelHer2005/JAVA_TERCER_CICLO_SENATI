@@ -11,8 +11,8 @@ package CÓDIGO;
 public class Empleado {
     public int codigo;
     public String nombre;
-    private int horas_T;
-    private double tarifa_H;
+    public int horas_T;
+    public double tarifa_H;
 
     public Empleado(int codigo, String nombre, int horas_T, double tarifa_H) {
         this.codigo = codigo;
