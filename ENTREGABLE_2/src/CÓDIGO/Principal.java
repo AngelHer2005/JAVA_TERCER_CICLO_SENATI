@@ -27,7 +27,6 @@ public class Principal {
         3. Crear tres objetos a partir de la clase “Empleado”, asignarle datos y realizar los cálculos del
         sueldo.
         */
-        Empleado e1 = new Empleado(4, "Que", 40, 40);
         Object[] empleados = {new Empleado(1, "Ángel", 40, 20.5),
                               new Empleado(2, "José", 50, 23.2),
                               new Empleado(3, "María", 45, 18)};
